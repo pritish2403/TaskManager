@@ -1,0 +1,147 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Dark Mode */
+.app-container.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Search and Dark Mode Top Right */
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+/* Search Bar */
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Dark Mode Button */
+.darkmode-button {
+  padding: 10px 20px;
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.darkmode-button:hover {
+  background-color: #333;
+}
+
+/* Input Section Centered */
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.task-input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.priority-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #2980b9;
+}
+
+/* Task List Centered */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Individual Task Item */
+.task-item {
+  width: 500px;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Styles */
+.task-text {
+  font-size: 18px;
+}
+
+.task-text.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Buttons inside each task */
+.task-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.done-button, .delete-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Done Button Green */
+.done-button {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.done-button:hover {
+  background-color: #27ae60;
+}
+
+/* Delete Button Red */
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .task-item {
+    width: 90%;
+  }
+}
