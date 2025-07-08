@@ -110,13 +110,6 @@ Make sure you have the following installed:
 
 ---
 
-## Screenshots
-![image](https://github.com/user-attachments/assets/1299b18f-9759-4f23-bd6e-1de2af0cb769)
-
-![image](https://github.com/user-attachments/assets/7d3fa53e-e560-4728-96e3-908c01791070)
-
----
-
 ## Future Improvements
 
 - Connect the frontend with the Flask API for a fully dynamic task management experience.
